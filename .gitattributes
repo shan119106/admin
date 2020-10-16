@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+#the sql table commands are
+CREATE TABLE admin (
+email VARCHAR(256),
+password VARCHAR(256),
+content VARCHAR(256)
+)
