@@ -1,0 +1,50 @@
+html{
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-y:scroll;
+  scroll-behavior: smooth;
+}
+body{
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+.head{
+	background-color:white;
+	color: black;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+h2{
+	position: absolute;
+	top: -10px;
+}
+.logout{
+	position: absolute;
+	left: 90%;
+	top: 3%;
+	width: 90px;
+	background-color: white;
+	border-radius: 5px;
+	height: 28px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 20px;
+	border: 1px  solid #248f24;
+	
+}
+a{
+	color: #248f24;
+}
+textarea{
+	outline: none;
+	width: 95%;
+	height: 700px;
+	font-family: 'Work Sans', sans-serif;
+	position: absolute;
+	top:50px;
+	left: 5px;
+}
